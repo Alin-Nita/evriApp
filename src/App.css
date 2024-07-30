@@ -1,7 +1,133 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.MainPage {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 80vw;
+}
+.trademark {
+  color: #060606;
+  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
+  text-decoration: double;
+  position: fixed;
+  bottom: 3vh;
 }
 
+h2 {
+  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
+  text-decoration: double;
+}
 
+h4 {
+  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
+}
 
+h3 {
+  text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8);
+  text-align: left;
+}
 
+form {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data {
+  margin-top: 3vh;
+  margin-left: 2vw;
+}
+
+.siteItems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  border-radius: 2%;
+  margin-top: 1vh;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  height: 65vh;
+  width: 90vw;
+}
+.input {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 18px;
+  border: 5px rgb(40, 40, 182) solid;
+  border-radius: 15px;
+  color: black;
+  width: 14em;
+  margin-top: 1em;
+}
+.input:focus {
+  border: 5px rgb(239, 61, 61) solid;
+  outline: none;
+}
+
+.buttonSearch {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 17px;
+}
+
+.buttonSearch:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.buttonSearch:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.buttonSearch:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
