@@ -22,7 +22,11 @@ const App = () => {
   return (
     <div class="MainPage">
       <div class="logo">
-        <img class="logo" src={require("./assets/evri-logo.png")} alt="logo" />
+        <img
+          class="logo"
+          src={require("./assets/EVRI-small-logo-blue.png")}
+          alt="logo"
+        />
       </div>
       <form className="" onSubmit={handleSearch}>
         <div className="search-box">
